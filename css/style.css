@@ -1,3 +1,4 @@
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -10,7 +11,6 @@ body {
   height: 2436px;
 }
 
-}
 .status {
   height:132px;
   background-color: black;
@@ -33,6 +33,7 @@ body {
   height: 132px;
   background-color: black;
 }
+
 .title {
   color: white;
   text-align: center;
@@ -40,35 +41,32 @@ body {
   font-weight: bold;
 }
 
-.content {
-  width: 90%;
+.row {
+display: inline-block;
+width: 100%
 }
 
 h2.line {
-  padding: 1em 0 0 1em;
+  padding: 0;
   margin: 0;
   font-weight: bold;
   font-size: 44px;
-  width: 100%;
+  width: 25%;
   background-color: white;
 }
 
 h3.destination {
-  padding: 0 0 1.2em 1.2em;
+  padding: 0;
   margin: 0;
   font-size: 44px;
-  width: 100%;
+  width: 50%;
   background-color: white;
 }
 
 h4.arrival {
- padding: 1em 0 0 1em;
+ padding: 0;
   margin: 0;
   font-size: 44px;
-  width: 100%;
+  width: 25%;
   background-color: white;
-}
-
-.destination, .arrival, .line {
-display: inline-block;
 }
