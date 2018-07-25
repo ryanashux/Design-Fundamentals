@@ -1,22 +1,28 @@
 <html>
-  <html lang="en"
   <head>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <meta charset="utf-8">
   </head>
   <body>
     <div class="container">
       <div class="status">
-        <h5 class="time">2:38pm</h5>
+        <div class="icons">
+        <i class="fas fa-signal fa-xs"></i>
+        <i class="fas fa-wifi fa-xs"></i>
+        <i class="fas fa-battery-three-quarters fa-xs"></i>
+       </div>
+         <h5 class="time">2:38pm</h5>
         </div>
       <div class="nav">
-       <h1 class="title">Name of stop</h1>
-      </div>
+       <h1 class="title">Washington and State</h1>
+     </div>
       <map>
-      <img src="map.png" alt="bus map" width="1125" height="1146">
+      <img src="images/map.png" alt="bus map" width=100%>
       </map>
-      <section class="busList">
+        <div class="tableHead">Incoming Buses</div>
+        <section class="busList">
          <div class="row">
             <h2 class="line">60</h2>
             <h3 class="destination">Randolph/Howard Dr<br>Eastbound</br></h3>
@@ -48,7 +54,7 @@
              <h4 class="arrival">12:10am</h4>
            </div>
            <div class="row">
-             <h2 class="line">20</h2>
+             <h2 class="line"> 20</h2>
              <h3 class="destination">Madison<br>Out of service</br></h3>
              <h4 class="arrival">12:10am</h4>
            </div>
@@ -56,7 +62,8 @@
              <h2 class="line">157</h2>
              <h3 class="destination">Streetville/Taylor<br>Out of service</br></h3>
              <h4 class="arrival">6:00am</h4>
-           </div>             
+           </div>
+         </section>
         </div>
     </div>
   </body>
