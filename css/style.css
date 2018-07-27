@@ -9,7 +9,6 @@ body {
   font-size: 17px
 }
 
-
 .container{
   width: 375px;
   height: 812px;
@@ -33,9 +32,9 @@ body {
   padding: 15px 15px 0 0;
 }
 
-.nav {
+nav {
   margin: 0 auto;
-  padding: 5px 0 5px 15px;
+  padding: 5px 0px;
   height: 50px;
   background-color: black;
 }
@@ -43,10 +42,10 @@ body {
 .title {
   color: white;
   text-align: center;
-  padding: 10px 0px 0 0px;
+  padding-top: 10px;
 }
 
-.tableHead {
+header {
     margin: 0;
     padding: 15px 0 15px 15px;
     height: 50px;
@@ -62,12 +61,12 @@ body {
 
 .row {
   width: 100%;
-  border-bottom: 2px solid lightgray
+  border-bottom: 2px solid lightgray;
 }
 
 h3.destination {
-  padding: 10px 0px 10px 50px;
-  font-size: 17px
+  padding: 10px 0px 10px 0px;
+  font-size: 17px;
   width: 50%;
   background-color: white;
   display: inline-block;
@@ -76,14 +75,12 @@ h3.destination {
 h2.line {
    padding: 10px 0 0 15px;
   font-weight: bold;
-  font-size: 20px
+  font-size: 20px;
   width: 25%;
   background-color: white;
   float: left;
 
 }
-
-
 
 h4.arrival {
  padding: 10px 0 0 0;
