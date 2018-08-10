@@ -1,12 +1,11 @@
-
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
 body {
   background-color: white;
-  font-family: "SF Pro Display",  sans-serif;
-  font-size: 17px
+  font-family: "SFPro Text", sans-serif;
+  font-size: 17px;
 }
 
 .container{
@@ -14,35 +13,44 @@ body {
   height: 812px;
   margin: auto 0;
 }
+
 .status {
   height:30px;
   background-color: black;
   width: 100%;
 }
+
 .time {
   color: white;
   text-align: Left;
-  padding: 15px 0 0 15px;
-  font-size: 15px
+  padding: 8px 0 0 8px;
+  font-size: 12px
 }
 
 .icons {
   float: right;
   color: white;
-  padding: 15px 15px 0 0;
+  padding: 8px 8px 0 0;
 }
+
 
 nav {
   margin: 0 auto;
-  padding: 5px 0px;
   height: 50px;
   background-color: black;
 }
 
 .title {
   color: white;
-  text-align: center;
-  padding-top: 10px;
+  padding: 10px 0px 0 80px;
+  display: inline-block;
+}
+
+.backArrow {
+  color: white;
+  padding: 8px 0 0 8px;
+  float: left;
+  display: inline-block;
 }
 
 header {
@@ -83,7 +91,7 @@ h2.line {
 }
 
 h4.arrival {
- padding: 10px 0 0 0;
+  padding: 10px 0 0 0;
   width: 20%;
   background-color: white;
   float: right;
