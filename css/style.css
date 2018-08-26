@@ -20,7 +20,7 @@ body {
   width: 100%;
 }
 
-.time {
+.displayTime {
   color: white;
   text-align: Left;
   padding: 8px 0 0 8px;
@@ -61,7 +61,7 @@ header {
     color: white;
   }
 
-  .busList {
+.busList {
     height: 307px;
     width: 100%;
     overflow-y: scroll;
@@ -72,37 +72,28 @@ header {
   border-bottom: 2px solid lightgray;
 }
 
-h3.destination {
-  padding: 10px 0px 10px 0px;
-  font-size: 17px;
-  width: 50%;
-  background-color: white;
-}
-
-.destination span {
-  display: block;
-}
-
 h2.line {
-   padding: 10px 0 0 15px;
+  padding: 10px 0 0 15px;
   font-weight: bold;
   font-size: 20px;
   width: 25%;
   background-color: white;
   float: left;
-
 }
 
-.line span {
-  display: block;
+.destination {
+  padding: 10px 0px 10px 0px;
+  font-size: 17px;
+  /* width: 50%; */
+  background-color: white;
+  display: inline-block;
 }
 
-h4.arrival {
+.arrival {
+  /* display: inline-block; */
+  margin-left: 30px;
   padding: 10px 0 0 0;
   width: 20%;
   background-color: white;
   float: right;
-}
-.arrival span {
-  display: block;
 }
